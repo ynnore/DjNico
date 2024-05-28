@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dj-Nico</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav id="menu" class="menu hidden">
+            <ul>
+                <li><a href="#">Cliquez sur un des liens ci-dessous pour écouter mes créations.</a></li>
+                <li><a href="#">Cliquez sur l'enveloppe pour me faire suivre un mail.</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="logo">
+            <h1>Dj-Nico</h1>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="icons/spotify.png" alt="Spotify"></a>
+            <a href="#"><img src="icons/apple.png" alt="Apple Music"></a>
+            <a href="#"><img src="icons/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="icons/soundcloud.png" alt="SoundCloud"></a>
+            <a href="#"><img src="icons/deezer.png" alt="Deezer"></a>
+            <a href="#"><img src="icons/tiktok.png" alt="TikTok"></a>
+            <a href="#"><img src="icons/amazon.png" alt="Amazon"></a>
+        </div>
+    </main>
+    <footer>
+        <a href="mailto:nicoalicefievet@gmail.com" class="email-icon">✉</a>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
